@@ -1,0 +1,501 @@
+Order ID,Order Date,Ship Mode,Customer Name,Segment,Region,Category,Sub-Category,Sales,Quantity,Discount,Profit
+CA-1000,2022-01-01,Standard Class,Eva,Corporate,South,Furniture,Chairs,663.7,7,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1001,2022-01-02,Same Day,Eva,Consumer,East,Furniture,Tables,766.73,7,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1002,2022-01-03,First Class,Alice,Consumer,Central,Furniture,Phones,272.4,9,0.07,<function <lambda> at 0x7efb0f47fcf0>
+CA-1003,2022-01-04,Standard Class,Charlie,Corporate,South,Office Supplies,Storage,30.74,7,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1004,2022-01-05,Standard Class,Bob,Corporate,East,Technology,Binders,91.35,3,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1005,2022-01-06,Same Day,Alice,Consumer,South,Technology,Tables,968.18,1,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1006,2022-01-07,First Class,Bob,Corporate,West,Office Supplies,Storage,302.49,8,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1007,2022-01-08,First Class,Frank,Consumer,West,Technology,Chairs,771.53,3,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1008,2022-01-09,Standard Class,Bob,Corporate,East,Furniture,Chairs,628.42,8,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1009,2022-01-10,Second Class,Charlie,Home Office,Central,Technology,Chairs,388.12,8,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1010,2022-01-11,Standard Class,Frank,Home Office,East,Furniture,Chairs,213.63,5,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1011,2022-01-12,Standard Class,Bob,Home Office,South,Office Supplies,Binders,130.17,1,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1012,2022-01-13,Standard Class,Frank,Home Office,Central,Furniture,Tables,618.86,7,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1013,2022-01-14,Standard Class,Bob,Home Office,West,Technology,Accessories,776.89,5,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1014,2022-01-15,Same Day,Charlie,Consumer,Central,Technology,Phones,647.47,8,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1015,2022-01-16,First Class,Bob,Home Office,West,Technology,Binders,535.0,9,0.07,<function <lambda> at 0x7efb0f47fcf0>
+CA-1016,2022-01-17,Same Day,Bob,Home Office,Central,Office Supplies,Binders,51.53,7,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1017,2022-01-18,Same Day,Bob,Home Office,Central,Office Supplies,Accessories,968.8,7,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1018,2022-01-19,Same Day,Alice,Home Office,Central,Technology,Accessories,800.73,1,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1019,2022-01-20,Standard Class,Alice,Corporate,South,Furniture,Phones,299.89,4,0.07,<function <lambda> at 0x7efb0f47fcf0>
+CA-1020,2022-01-21,Second Class,Alice,Consumer,South,Office Supplies,Phones,980.17,2,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1021,2022-01-22,First Class,Charlie,Home Office,East,Technology,Accessories,605.86,2,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1022,2022-01-23,Second Class,Frank,Home Office,East,Technology,Chairs,586.6,2,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1023,2022-01-24,Same Day,Eva,Home Office,West,Office Supplies,Binders,750.59,4,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1024,2022-01-25,Same Day,Bob,Consumer,South,Office Supplies,Storage,813.65,1,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1025,2022-01-26,Second Class,Bob,Corporate,West,Office Supplies,Phones,659.91,4,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1026,2022-01-27,Second Class,Charlie,Consumer,East,Furniture,Phones,136.81,2,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1027,2022-01-28,Second Class,Bob,Corporate,West,Furniture,Accessories,344.88,5,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1028,2022-01-29,Same Day,Alice,Home Office,East,Technology,Tables,928.8,3,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1029,2022-01-30,Same Day,Eva,Home Office,South,Office Supplies,Storage,232.37,8,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1030,2022-01-31,First Class,David,Consumer,Central,Furniture,Storage,378.45,4,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1031,2022-02-01,First Class,Bob,Consumer,South,Office Supplies,Phones,437.76,1,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1032,2022-02-02,Same Day,Alice,Corporate,West,Technology,Chairs,445.01,1,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1033,2022-02-03,Second Class,David,Corporate,West,Furniture,Tables,616.81,3,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1034,2022-02-04,Second Class,Eva,Consumer,South,Furniture,Storage,943.65,9,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1035,2022-02-05,First Class,David,Corporate,South,Furniture,Phones,248.29,7,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1036,2022-02-06,Same Day,Alice,Consumer,East,Technology,Storage,130.29,2,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1037,2022-02-07,First Class,Frank,Corporate,West,Office Supplies,Tables,205.5,9,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1038,2022-02-08,First Class,Frank,Consumer,West,Furniture,Tables,888.06,2,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1039,2022-02-09,Standard Class,David,Consumer,South,Technology,Binders,649.35,3,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1040,2022-02-10,Standard Class,Charlie,Consumer,Central,Office Supplies,Accessories,293.05,2,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1041,2022-02-11,Standard Class,David,Corporate,West,Technology,Accessories,817.79,3,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1042,2022-02-12,Second Class,Bob,Corporate,Central,Office Supplies,Phones,862.76,6,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1043,2022-02-13,Same Day,Bob,Corporate,South,Technology,Tables,848.05,9,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1044,2022-02-14,Same Day,Frank,Consumer,South,Office Supplies,Binders,919.74,9,0.5,<function <lambda> at 0x7efb0f47fcf0>
+CA-1045,2022-02-15,Same Day,Charlie,Corporate,East,Furniture,Binders,259.72,7,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1046,2022-02-16,Same Day,Alice,Corporate,West,Office Supplies,Storage,757.49,3,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1047,2022-02-17,Standard Class,Bob,Consumer,Central,Technology,Storage,465.93,4,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1048,2022-02-18,Second Class,Frank,Home Office,East,Technology,Binders,843.58,6,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1049,2022-02-19,Second Class,Eva,Consumer,West,Office Supplies,Storage,731.21,5,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1050,2022-02-20,Standard Class,Frank,Corporate,East,Furniture,Tables,778.68,2,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1051,2022-02-21,Second Class,Bob,Consumer,South,Furniture,Chairs,659.6,6,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1052,2022-02-22,Standard Class,Bob,Home Office,West,Office Supplies,Tables,185.65,3,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1053,2022-02-23,Same Day,Frank,Consumer,East,Office Supplies,Binders,549.58,8,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1054,2022-02-24,Standard Class,Alice,Corporate,East,Technology,Binders,984.82,2,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1055,2022-02-25,Same Day,David,Home Office,Central,Furniture,Tables,938.01,1,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1056,2022-02-26,Same Day,Bob,Corporate,East,Office Supplies,Storage,52.74,9,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1057,2022-02-27,First Class,Frank,Home Office,West,Furniture,Storage,173.17,3,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1058,2022-02-28,Standard Class,Frank,Home Office,West,Office Supplies,Accessories,140.41,1,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1059,2022-03-01,First Class,Charlie,Consumer,Central,Office Supplies,Binders,728.72,7,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1060,2022-03-02,Standard Class,David,Consumer,West,Furniture,Phones,819.61,5,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1061,2022-03-03,Standard Class,Eva,Corporate,South,Office Supplies,Accessories,221.38,5,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1062,2022-03-04,First Class,Alice,Consumer,West,Office Supplies,Storage,510.79,1,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1063,2022-03-05,First Class,Eva,Consumer,West,Technology,Tables,842.3,9,0.24,<function <lambda> at 0x7efb0f47fcf0>
+CA-1064,2022-03-06,Standard Class,David,Home Office,East,Office Supplies,Storage,735.47,7,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1065,2022-03-07,Second Class,David,Consumer,East,Office Supplies,Tables,546.81,8,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1066,2022-03-08,Same Day,David,Home Office,West,Office Supplies,Accessories,594.44,9,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1067,2022-03-09,First Class,Eva,Home Office,Central,Technology,Binders,513.28,6,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1068,2022-03-10,Same Day,David,Home Office,East,Furniture,Storage,304.57,5,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1069,2022-03-11,Second Class,Frank,Corporate,Central,Technology,Tables,569.37,6,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1070,2022-03-12,Second Class,Eva,Corporate,West,Technology,Binders,692.0,2,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1071,2022-03-13,Second Class,David,Corporate,West,Furniture,Phones,874.59,4,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1072,2022-03-14,First Class,Frank,Home Office,South,Technology,Tables,639.93,3,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1073,2022-03-15,Second Class,Charlie,Corporate,East,Furniture,Accessories,763.51,7,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1074,2022-03-16,First Class,David,Corporate,West,Technology,Phones,168.47,9,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1075,2022-03-17,Second Class,Eva,Consumer,South,Furniture,Phones,466.94,5,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1076,2022-03-18,Same Day,Bob,Corporate,East,Office Supplies,Chairs,19.24,6,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1077,2022-03-19,Same Day,David,Corporate,West,Technology,Storage,254.21,2,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1078,2022-03-20,Standard Class,Bob,Home Office,West,Technology,Tables,729.2,3,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1079,2022-03-21,Same Day,Frank,Home Office,East,Technology,Phones,991.89,3,0.16,<function <lambda> at 0x7efb0f47fcf0>
+CA-1080,2022-03-22,Standard Class,Charlie,Home Office,East,Technology,Chairs,108.19,9,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1081,2022-03-23,Same Day,Alice,Home Office,East,Office Supplies,Accessories,407.48,7,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1082,2022-03-24,First Class,Charlie,Home Office,West,Technology,Binders,802.07,8,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1083,2022-03-25,Same Day,David,Home Office,West,Office Supplies,Tables,212.0,9,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1084,2022-03-26,Standard Class,Bob,Corporate,South,Office Supplies,Phones,559.53,6,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1085,2022-03-27,Standard Class,Bob,Home Office,Central,Office Supplies,Storage,735.74,4,0.24,<function <lambda> at 0x7efb0f47fcf0>
+CA-1086,2022-03-28,Second Class,Eva,Home Office,East,Office Supplies,Chairs,619.83,1,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1087,2022-03-29,First Class,Bob,Consumer,West,Furniture,Phones,196.14,8,0.06,<function <lambda> at 0x7efb0f47fcf0>
+CA-1088,2022-03-30,Same Day,Eva,Corporate,West,Furniture,Storage,361.83,7,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1089,2022-03-31,Second Class,Frank,Corporate,East,Technology,Phones,785.95,2,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1090,2022-04-01,Same Day,Alice,Corporate,Central,Furniture,Tables,558.68,8,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1091,2022-04-02,Same Day,David,Home Office,East,Furniture,Tables,15.18,5,0.5,<function <lambda> at 0x7efb0f47fcf0>
+CA-1092,2022-04-03,Second Class,Eva,Home Office,Central,Technology,Tables,763.38,7,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1093,2022-04-04,Second Class,Alice,Home Office,West,Technology,Accessories,44.96,4,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1094,2022-04-05,Second Class,Bob,Consumer,Central,Technology,Accessories,748.28,5,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1095,2022-04-06,Second Class,Bob,Home Office,South,Furniture,Chairs,210.46,8,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1096,2022-04-07,Second Class,Alice,Consumer,West,Furniture,Tables,958.49,1,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1097,2022-04-08,Same Day,Bob,Corporate,South,Technology,Storage,374.26,1,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1098,2022-04-09,Second Class,Frank,Home Office,East,Office Supplies,Phones,333.66,4,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1099,2022-04-10,First Class,Frank,Consumer,East,Technology,Binders,157.4,3,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1100,2022-04-11,Standard Class,Alice,Consumer,East,Office Supplies,Storage,312.55,2,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1101,2022-04-12,Second Class,Eva,Home Office,Central,Office Supplies,Accessories,877.88,3,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1102,2022-04-13,Second Class,Eva,Corporate,West,Technology,Accessories,996.37,1,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1103,2022-04-14,Same Day,Alice,Corporate,East,Technology,Storage,374.63,1,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1104,2022-04-15,Second Class,Eva,Corporate,East,Technology,Accessories,454.12,6,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1105,2022-04-16,Second Class,Eva,Consumer,West,Furniture,Tables,724.85,5,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1106,2022-04-17,Second Class,Frank,Consumer,East,Office Supplies,Chairs,887.33,8,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1107,2022-04-18,Same Day,Eva,Consumer,South,Furniture,Phones,597.11,2,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1108,2022-04-19,Second Class,Charlie,Consumer,West,Furniture,Chairs,397.61,4,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1109,2022-04-20,Standard Class,David,Corporate,West,Technology,Phones,418.5,8,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1110,2022-04-21,Same Day,Bob,Home Office,West,Furniture,Phones,698.66,6,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1111,2022-04-22,Standard Class,Charlie,Consumer,South,Technology,Chairs,13.19,1,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1112,2022-04-23,Same Day,Eva,Consumer,West,Office Supplies,Storage,623.39,4,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1113,2022-04-24,Second Class,Frank,Corporate,South,Technology,Phones,361.94,1,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1114,2022-04-25,Standard Class,Alice,Home Office,West,Furniture,Chairs,796.26,2,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1115,2022-04-26,Same Day,Eva,Home Office,Central,Furniture,Phones,102.06,5,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1116,2022-04-27,First Class,Frank,Corporate,East,Technology,Binders,592.32,8,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1117,2022-04-28,Second Class,David,Corporate,Central,Technology,Storage,486.16,8,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1118,2022-04-29,Same Day,Eva,Home Office,East,Furniture,Tables,645.9,3,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1119,2022-04-30,First Class,Alice,Consumer,South,Office Supplies,Phones,74.21,4,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1120,2022-05-01,Same Day,Frank,Home Office,Central,Office Supplies,Binders,584.18,6,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1121,2022-05-02,First Class,Frank,Corporate,West,Technology,Tables,565.87,3,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1122,2022-05-03,Second Class,Frank,Consumer,East,Office Supplies,Tables,565.05,2,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1123,2022-05-04,Standard Class,David,Consumer,East,Furniture,Phones,607.45,6,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1124,2022-05-05,First Class,Eva,Corporate,Central,Technology,Chairs,679.7,5,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1125,2022-05-06,Same Day,David,Corporate,South,Furniture,Phones,806.94,5,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1126,2022-05-07,Second Class,Bob,Corporate,Central,Furniture,Binders,277.12,5,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1127,2022-05-08,First Class,Bob,Home Office,South,Office Supplies,Tables,826.8,5,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1128,2022-05-09,Same Day,Eva,Home Office,South,Technology,Phones,503.27,3,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1129,2022-05-10,Same Day,David,Consumer,East,Technology,Chairs,86.29,7,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1130,2022-05-11,Same Day,Alice,Corporate,Central,Office Supplies,Phones,67.97,6,0.24,<function <lambda> at 0x7efb0f47fcf0>
+CA-1131,2022-05-12,First Class,Frank,Consumer,Central,Furniture,Storage,340.9,4,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1132,2022-05-13,First Class,Frank,Consumer,South,Furniture,Chairs,787.05,2,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1133,2022-05-14,First Class,Eva,Consumer,Central,Furniture,Binders,710.6,9,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1134,2022-05-15,Standard Class,Bob,Consumer,West,Furniture,Tables,790.73,1,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1135,2022-05-16,First Class,Bob,Corporate,West,Technology,Phones,522.1,4,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1136,2022-05-17,First Class,Frank,Consumer,Central,Technology,Chairs,445.8,1,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1137,2022-05-18,First Class,Eva,Corporate,Central,Office Supplies,Storage,155.98,6,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1138,2022-05-19,Standard Class,David,Corporate,South,Office Supplies,Chairs,334.91,4,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1139,2022-05-20,First Class,Bob,Home Office,West,Technology,Accessories,439.68,5,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1140,2022-05-21,Same Day,David,Corporate,West,Technology,Storage,97.71,5,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1141,2022-05-22,First Class,Bob,Home Office,East,Furniture,Binders,228.41,9,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1142,2022-05-23,Same Day,Bob,Corporate,South,Furniture,Tables,602.24,1,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1143,2022-05-24,Same Day,Charlie,Corporate,East,Office Supplies,Binders,738.31,2,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1144,2022-05-25,Same Day,Bob,Corporate,West,Technology,Phones,998.36,6,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1145,2022-05-26,Standard Class,Alice,Home Office,South,Office Supplies,Chairs,933.78,5,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1146,2022-05-27,Standard Class,Eva,Home Office,Central,Technology,Accessories,646.14,7,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1147,2022-05-28,Standard Class,Eva,Consumer,South,Furniture,Storage,427.04,3,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1148,2022-05-29,First Class,David,Home Office,Central,Office Supplies,Storage,639.82,3,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1149,2022-05-30,Same Day,Bob,Home Office,Central,Office Supplies,Chairs,787.8,2,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1150,2022-05-31,Standard Class,Alice,Home Office,South,Technology,Accessories,127.15,3,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1151,2022-06-01,Standard Class,David,Home Office,Central,Furniture,Chairs,415.81,1,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1152,2022-06-02,First Class,Charlie,Consumer,East,Office Supplies,Phones,841.4,5,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1153,2022-06-03,Standard Class,David,Home Office,West,Furniture,Binders,389.99,5,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1154,2022-06-04,First Class,David,Corporate,Central,Office Supplies,Storage,576.15,7,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1155,2022-06-05,Second Class,Bob,Corporate,East,Furniture,Phones,591.89,4,0.06,<function <lambda> at 0x7efb0f47fcf0>
+CA-1156,2022-06-06,Standard Class,Charlie,Home Office,Central,Technology,Binders,192.63,3,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1157,2022-06-07,Second Class,David,Home Office,West,Office Supplies,Phones,368.61,1,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1158,2022-06-08,First Class,Alice,Corporate,East,Office Supplies,Accessories,341.17,8,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1159,2022-06-09,Same Day,Alice,Corporate,West,Furniture,Storage,35.93,3,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1160,2022-06-10,Standard Class,Eva,Consumer,West,Furniture,Chairs,33.95,2,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1161,2022-06-11,First Class,Charlie,Corporate,East,Office Supplies,Chairs,833.38,4,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1162,2022-06-12,Same Day,Charlie,Corporate,East,Technology,Binders,280.34,3,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1163,2022-06-13,Same Day,Eva,Home Office,East,Furniture,Tables,522.9,1,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1164,2022-06-14,Second Class,David,Corporate,South,Furniture,Accessories,305.74,3,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1165,2022-06-15,First Class,Charlie,Consumer,East,Furniture,Binders,941.27,2,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1166,2022-06-16,Same Day,Alice,Corporate,East,Office Supplies,Tables,266.7,8,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1167,2022-06-17,Standard Class,Alice,Home Office,East,Office Supplies,Phones,435.36,6,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1168,2022-06-18,Standard Class,Bob,Home Office,East,Office Supplies,Accessories,874.0,9,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1169,2022-06-19,Second Class,Charlie,Corporate,Central,Office Supplies,Phones,843.51,8,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1170,2022-06-20,Same Day,David,Home Office,South,Technology,Storage,194.24,3,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1171,2022-06-21,First Class,Eva,Consumer,West,Technology,Accessories,804.62,5,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1172,2022-06-22,Standard Class,Eva,Consumer,East,Office Supplies,Tables,463.61,7,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1173,2022-06-23,Same Day,David,Corporate,Central,Technology,Storage,488.14,5,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1174,2022-06-24,Same Day,Frank,Corporate,Central,Furniture,Chairs,142.15,8,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1175,2022-06-25,Second Class,Bob,Corporate,Central,Furniture,Tables,89.8,5,0.16,<function <lambda> at 0x7efb0f47fcf0>
+CA-1176,2022-06-26,Standard Class,Eva,Home Office,West,Furniture,Binders,730.66,1,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1177,2022-06-27,Standard Class,Charlie,Consumer,East,Office Supplies,Chairs,501.5,5,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1178,2022-06-28,First Class,Bob,Consumer,South,Furniture,Chairs,442.48,4,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1179,2022-06-29,Standard Class,Charlie,Home Office,South,Technology,Binders,732.21,6,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1180,2022-06-30,First Class,Alice,Consumer,Central,Office Supplies,Accessories,767.86,3,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1181,2022-07-01,Standard Class,Bob,Corporate,West,Technology,Chairs,167.32,5,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1182,2022-07-02,Second Class,Eva,Corporate,West,Furniture,Tables,614.12,2,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1183,2022-07-03,Standard Class,Bob,Corporate,West,Furniture,Storage,144.0,6,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1184,2022-07-04,First Class,Bob,Consumer,South,Furniture,Chairs,753.86,6,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1185,2022-07-05,First Class,Bob,Corporate,Central,Office Supplies,Tables,660.39,5,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1186,2022-07-06,Second Class,Frank,Home Office,East,Technology,Phones,957.05,6,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1187,2022-07-07,Standard Class,Bob,Home Office,South,Office Supplies,Tables,78.27,7,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1188,2022-07-08,Standard Class,Charlie,Consumer,Central,Office Supplies,Storage,66.48,5,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1189,2022-07-09,Second Class,Alice,Home Office,Central,Furniture,Tables,289.37,1,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1190,2022-07-10,Standard Class,David,Home Office,East,Office Supplies,Binders,269.09,8,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1191,2022-07-11,Standard Class,Bob,Consumer,East,Office Supplies,Storage,254.51,4,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1192,2022-07-12,First Class,Eva,Corporate,East,Furniture,Accessories,907.19,9,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1193,2022-07-13,Standard Class,Bob,Corporate,West,Office Supplies,Phones,257.05,6,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1194,2022-07-14,Standard Class,Eva,Corporate,East,Furniture,Binders,279.23,1,0.02,<function <lambda> at 0x7efb0f47fcf0>
+CA-1195,2022-07-15,Second Class,Charlie,Consumer,Central,Furniture,Accessories,761.8,3,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1196,2022-07-16,Second Class,Eva,Home Office,East,Furniture,Tables,455.24,3,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1197,2022-07-17,Same Day,David,Corporate,Central,Furniture,Storage,778.94,4,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1198,2022-07-18,First Class,Alice,Corporate,South,Office Supplies,Phones,74.71,6,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1199,2022-07-19,Standard Class,Eva,Consumer,West,Furniture,Binders,492.7,7,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1200,2022-07-20,Standard Class,Eva,Corporate,South,Furniture,Accessories,43.28,4,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1201,2022-07-21,Same Day,Alice,Consumer,South,Office Supplies,Accessories,72.03,6,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1202,2022-07-22,Standard Class,David,Home Office,Central,Office Supplies,Phones,907.37,1,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1203,2022-07-23,First Class,Bob,Consumer,South,Technology,Tables,147.85,8,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1204,2022-07-24,Same Day,Eva,Consumer,Central,Office Supplies,Phones,537.1,7,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1205,2022-07-25,First Class,Alice,Consumer,East,Office Supplies,Accessories,416.98,9,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1206,2022-07-26,Same Day,Charlie,Consumer,East,Technology,Chairs,353.87,3,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1207,2022-07-27,Same Day,Alice,Home Office,Central,Office Supplies,Binders,900.84,2,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1208,2022-07-28,Second Class,Charlie,Home Office,East,Office Supplies,Phones,31.61,1,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1209,2022-07-29,First Class,David,Corporate,West,Office Supplies,Accessories,667.15,3,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1210,2022-07-30,Standard Class,Bob,Home Office,South,Office Supplies,Tables,963.76,5,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1211,2022-07-31,Standard Class,Alice,Home Office,West,Technology,Accessories,564.57,2,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1212,2022-08-01,First Class,Frank,Corporate,South,Office Supplies,Tables,937.45,3,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1213,2022-08-02,Standard Class,Eva,Home Office,East,Office Supplies,Phones,61.74,4,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1214,2022-08-03,Standard Class,David,Consumer,West,Technology,Tables,424.61,7,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1215,2022-08-04,First Class,Alice,Consumer,East,Furniture,Storage,267.56,3,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1216,2022-08-05,Same Day,Eva,Corporate,South,Technology,Storage,733.51,9,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1217,2022-08-06,First Class,Alice,Corporate,Central,Furniture,Storage,981.48,8,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1218,2022-08-07,Same Day,Charlie,Corporate,Central,Technology,Chairs,263.96,4,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1219,2022-08-08,Standard Class,Alice,Consumer,West,Technology,Phones,657.63,1,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1220,2022-08-09,Standard Class,Frank,Home Office,East,Office Supplies,Accessories,206.12,1,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1221,2022-08-10,Standard Class,Alice,Consumer,East,Furniture,Accessories,569.68,1,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1222,2022-08-11,Second Class,Alice,Corporate,West,Office Supplies,Chairs,469.29,1,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1223,2022-08-12,Same Day,Frank,Home Office,Central,Furniture,Tables,972.29,8,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1224,2022-08-13,Second Class,David,Home Office,South,Technology,Chairs,612.44,3,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1225,2022-08-14,Second Class,Alice,Consumer,West,Technology,Tables,356.01,6,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1226,2022-08-15,First Class,Frank,Corporate,South,Furniture,Tables,122.95,3,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1227,2022-08-16,Second Class,Eva,Consumer,Central,Office Supplies,Binders,159.73,5,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1228,2022-08-17,First Class,Charlie,Home Office,East,Office Supplies,Accessories,233.06,7,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1229,2022-08-18,First Class,Charlie,Consumer,Central,Office Supplies,Storage,258.46,2,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1230,2022-08-19,Second Class,Alice,Consumer,West,Office Supplies,Tables,852.11,6,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1231,2022-08-20,Same Day,David,Corporate,East,Technology,Binders,565.61,6,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1232,2022-08-21,Same Day,David,Corporate,West,Technology,Accessories,528.16,3,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1233,2022-08-22,Same Day,Eva,Home Office,West,Technology,Storage,123.62,6,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1234,2022-08-23,Same Day,Alice,Consumer,Central,Technology,Tables,861.54,5,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1235,2022-08-24,Same Day,Charlie,Consumer,West,Technology,Tables,725.59,2,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1236,2022-08-25,Second Class,David,Consumer,Central,Office Supplies,Chairs,76.99,9,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1237,2022-08-26,Second Class,Alice,Home Office,East,Office Supplies,Chairs,710.76,8,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1238,2022-08-27,Standard Class,David,Home Office,Central,Office Supplies,Accessories,548.1,3,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1239,2022-08-28,Same Day,Frank,Corporate,East,Office Supplies,Storage,90.91,8,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1240,2022-08-29,Second Class,David,Corporate,Central,Technology,Tables,463.72,9,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1241,2022-08-30,Standard Class,Charlie,Corporate,South,Technology,Accessories,489.85,3,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1242,2022-08-31,Same Day,Bob,Consumer,South,Technology,Accessories,174.12,3,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1243,2022-09-01,First Class,Eva,Consumer,West,Furniture,Phones,946.24,2,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1244,2022-09-02,Standard Class,Eva,Corporate,Central,Office Supplies,Chairs,851.48,8,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1245,2022-09-03,Second Class,Charlie,Consumer,Central,Office Supplies,Storage,672.33,1,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1246,2022-09-04,First Class,David,Corporate,East,Technology,Tables,467.67,8,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1247,2022-09-05,First Class,Alice,Home Office,West,Office Supplies,Accessories,417.65,7,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1248,2022-09-06,First Class,David,Corporate,Central,Office Supplies,Tables,654.46,7,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1249,2022-09-07,Standard Class,Charlie,Home Office,West,Technology,Phones,549.98,3,0.07,<function <lambda> at 0x7efb0f47fcf0>
+CA-1250,2022-09-08,Second Class,Eva,Consumer,South,Furniture,Storage,71.65,1,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1251,2022-09-09,First Class,David,Corporate,Central,Furniture,Accessories,517.38,4,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1252,2022-09-10,Same Day,Eva,Consumer,Central,Furniture,Tables,808.34,9,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1253,2022-09-11,First Class,Alice,Home Office,West,Technology,Chairs,464.65,5,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1254,2022-09-12,First Class,Eva,Home Office,Central,Office Supplies,Phones,61.44,1,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1255,2022-09-13,Standard Class,Eva,Home Office,West,Technology,Storage,788.42,5,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1256,2022-09-14,Standard Class,Bob,Consumer,Central,Technology,Phones,209.35,8,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1257,2022-09-15,Second Class,Bob,Consumer,East,Office Supplies,Chairs,266.03,8,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1258,2022-09-16,Same Day,Frank,Consumer,West,Furniture,Storage,173.06,5,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1259,2022-09-17,Standard Class,Bob,Consumer,Central,Furniture,Phones,336.91,9,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1260,2022-09-18,First Class,Eva,Home Office,South,Technology,Binders,759.18,1,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1261,2022-09-19,Second Class,Charlie,Home Office,Central,Furniture,Chairs,524.19,4,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1262,2022-09-20,First Class,Eva,Corporate,South,Technology,Chairs,212.83,3,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1263,2022-09-21,First Class,Charlie,Corporate,South,Technology,Chairs,879.05,2,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1264,2022-09-22,Standard Class,Charlie,Consumer,East,Office Supplies,Binders,880.79,8,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1265,2022-09-23,Second Class,Bob,Home Office,West,Office Supplies,Binders,871.87,7,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1266,2022-09-24,Same Day,David,Home Office,Central,Office Supplies,Tables,246.41,9,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1267,2022-09-25,Same Day,Alice,Home Office,East,Technology,Accessories,456.73,2,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1268,2022-09-26,Standard Class,Bob,Corporate,Central,Office Supplies,Phones,985.14,4,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1269,2022-09-27,Standard Class,Bob,Corporate,South,Furniture,Tables,774.29,6,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1270,2022-09-28,Second Class,David,Home Office,West,Furniture,Phones,36.9,3,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1271,2022-09-29,Same Day,Alice,Home Office,Central,Technology,Accessories,74.55,8,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1272,2022-09-30,Same Day,Eva,Home Office,Central,Technology,Binders,469.29,3,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1273,2022-10-01,Same Day,Frank,Corporate,South,Office Supplies,Accessories,910.13,2,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1274,2022-10-02,First Class,Frank,Home Office,Central,Technology,Binders,543.31,3,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1275,2022-10-03,Same Day,Eva,Home Office,Central,Technology,Accessories,502.83,6,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1276,2022-10-04,First Class,Bob,Consumer,South,Furniture,Tables,114.42,2,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1277,2022-10-05,Second Class,Alice,Consumer,East,Furniture,Storage,660.21,8,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1278,2022-10-06,First Class,Bob,Corporate,South,Office Supplies,Tables,823.88,1,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1279,2022-10-07,Second Class,Charlie,Home Office,East,Technology,Phones,386.62,7,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1280,2022-10-08,Same Day,Bob,Home Office,West,Technology,Tables,777.86,2,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1281,2022-10-09,Same Day,Bob,Consumer,East,Furniture,Chairs,964.83,6,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1282,2022-10-10,Second Class,Eva,Corporate,East,Technology,Phones,211.73,2,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1283,2022-10-11,Standard Class,Eva,Consumer,West,Furniture,Accessories,528.1,2,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1284,2022-10-12,Second Class,Eva,Consumer,East,Office Supplies,Phones,294.27,8,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1285,2022-10-13,Standard Class,Frank,Consumer,South,Furniture,Storage,794.93,2,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1286,2022-10-14,First Class,Charlie,Consumer,East,Technology,Binders,581.82,7,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1287,2022-10-15,First Class,Eva,Home Office,West,Office Supplies,Accessories,638.24,3,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1288,2022-10-16,First Class,Alice,Home Office,South,Furniture,Phones,799.94,8,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1289,2022-10-17,Same Day,Frank,Consumer,West,Furniture,Accessories,402.01,7,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1290,2022-10-18,First Class,David,Corporate,West,Office Supplies,Accessories,915.94,8,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1291,2022-10-19,Standard Class,Alice,Corporate,Central,Office Supplies,Accessories,537.7,7,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1292,2022-10-20,First Class,Alice,Corporate,Central,Furniture,Binders,166.38,6,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1293,2022-10-21,Second Class,Eva,Corporate,West,Technology,Tables,698.94,7,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1294,2022-10-22,Second Class,David,Consumer,West,Furniture,Accessories,795.33,5,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1295,2022-10-23,Same Day,David,Home Office,West,Office Supplies,Chairs,323.59,7,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1296,2022-10-24,Second Class,Frank,Corporate,Central,Furniture,Storage,858.61,1,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1297,2022-10-25,Standard Class,David,Consumer,Central,Office Supplies,Binders,907.08,1,0.06,<function <lambda> at 0x7efb0f47fcf0>
+CA-1298,2022-10-26,First Class,Charlie,Corporate,East,Office Supplies,Phones,284.14,9,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1299,2022-10-27,Same Day,Eva,Corporate,East,Technology,Binders,983.69,5,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1300,2022-10-28,First Class,David,Consumer,West,Office Supplies,Phones,149.3,5,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1301,2022-10-29,First Class,Frank,Home Office,South,Office Supplies,Binders,210.0,3,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1302,2022-10-30,Standard Class,Charlie,Home Office,South,Technology,Phones,192.38,5,0.17,<function <lambda> at 0x7efb0f47fcf0>
+CA-1303,2022-10-31,Second Class,Bob,Consumer,Central,Office Supplies,Accessories,895.05,3,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1304,2022-11-01,Second Class,Bob,Home Office,Central,Technology,Tables,657.75,9,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1305,2022-11-02,First Class,Charlie,Consumer,Central,Technology,Phones,160.58,9,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1306,2022-11-03,Same Day,Frank,Consumer,West,Office Supplies,Phones,445.92,6,0.24,<function <lambda> at 0x7efb0f47fcf0>
+CA-1307,2022-11-04,Second Class,Charlie,Consumer,South,Office Supplies,Chairs,619.15,1,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1308,2022-11-05,Same Day,Eva,Home Office,East,Furniture,Phones,92.63,7,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1309,2022-11-06,Second Class,Eva,Consumer,West,Technology,Chairs,883.59,7,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1310,2022-11-07,Same Day,Bob,Corporate,East,Furniture,Storage,805.57,4,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1311,2022-11-08,Standard Class,David,Home Office,East,Office Supplies,Accessories,510.15,8,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1312,2022-11-09,Same Day,Frank,Home Office,West,Furniture,Chairs,967.46,6,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1313,2022-11-10,Standard Class,Bob,Home Office,East,Technology,Tables,423.58,4,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1314,2022-11-11,Standard Class,David,Home Office,South,Furniture,Accessories,984.27,4,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1315,2022-11-12,Same Day,David,Corporate,East,Technology,Chairs,671.24,2,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1316,2022-11-13,Standard Class,Eva,Home Office,South,Office Supplies,Accessories,638.32,2,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1317,2022-11-14,First Class,Alice,Home Office,South,Office Supplies,Accessories,174.3,4,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1318,2022-11-15,Standard Class,Alice,Consumer,South,Technology,Accessories,883.11,5,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1319,2022-11-16,Second Class,Charlie,Home Office,Central,Office Supplies,Storage,433.21,8,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1320,2022-11-17,Same Day,Eva,Corporate,East,Office Supplies,Tables,170.61,6,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1321,2022-11-18,First Class,David,Corporate,West,Office Supplies,Binders,22.48,4,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1322,2022-11-19,Same Day,Frank,Corporate,West,Office Supplies,Binders,564.16,7,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1323,2022-11-20,Second Class,Alice,Corporate,East,Technology,Chairs,532.13,8,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1324,2022-11-21,Second Class,David,Home Office,Central,Furniture,Accessories,722.16,2,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1325,2022-11-22,Second Class,Alice,Home Office,Central,Furniture,Chairs,891.36,7,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1326,2022-11-23,Standard Class,Alice,Corporate,South,Office Supplies,Storage,88.61,2,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1327,2022-11-24,Standard Class,Alice,Corporate,East,Furniture,Storage,734.18,2,0.16,<function <lambda> at 0x7efb0f47fcf0>
+CA-1328,2022-11-25,Same Day,Frank,Home Office,East,Furniture,Phones,195.54,8,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1329,2022-11-26,Same Day,Eva,Corporate,West,Office Supplies,Storage,859.6,2,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1330,2022-11-27,First Class,Frank,Consumer,East,Office Supplies,Phones,820.87,9,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1331,2022-11-28,First Class,Bob,Corporate,Central,Furniture,Tables,545.39,1,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1332,2022-11-29,Same Day,David,Corporate,East,Technology,Chairs,713.14,9,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1333,2022-11-30,Standard Class,Eva,Consumer,West,Office Supplies,Tables,321.21,1,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1334,2022-12-01,Second Class,Eva,Consumer,South,Technology,Storage,476.46,2,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1335,2022-12-02,Same Day,Eva,Home Office,West,Furniture,Tables,823.42,6,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1336,2022-12-03,First Class,Eva,Home Office,West,Office Supplies,Tables,464.67,6,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1337,2022-12-04,Standard Class,Frank,Consumer,South,Technology,Tables,364.22,1,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1338,2022-12-05,Same Day,Eva,Consumer,West,Office Supplies,Storage,499.27,7,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1339,2022-12-06,Same Day,Charlie,Home Office,West,Furniture,Accessories,829.97,8,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1340,2022-12-07,Standard Class,David,Corporate,East,Technology,Tables,341.86,2,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1341,2022-12-08,Same Day,Eva,Consumer,East,Furniture,Phones,182.02,8,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1342,2022-12-09,Standard Class,David,Home Office,South,Furniture,Storage,714.89,9,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1343,2022-12-10,Second Class,Charlie,Corporate,East,Office Supplies,Tables,827.72,6,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1344,2022-12-11,Standard Class,Charlie,Consumer,East,Technology,Accessories,109.63,5,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1345,2022-12-12,Standard Class,David,Corporate,West,Furniture,Storage,247.48,9,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1346,2022-12-13,Standard Class,Alice,Home Office,Central,Furniture,Binders,150.55,9,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1347,2022-12-14,Same Day,Bob,Consumer,East,Technology,Accessories,354.46,1,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1348,2022-12-15,Same Day,Alice,Corporate,Central,Furniture,Phones,455.85,3,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1349,2022-12-16,Standard Class,Alice,Consumer,East,Furniture,Tables,751.34,9,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1350,2022-12-17,Same Day,Frank,Corporate,East,Technology,Binders,654.64,2,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1351,2022-12-18,First Class,Alice,Home Office,South,Technology,Binders,624.72,4,0.49,<function <lambda> at 0x7efb0f47fcf0>
+CA-1352,2022-12-19,First Class,Eva,Home Office,South,Technology,Storage,358.85,4,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1353,2022-12-20,Same Day,Frank,Consumer,South,Technology,Binders,843.03,2,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1354,2022-12-21,Same Day,Frank,Corporate,Central,Office Supplies,Phones,476.57,3,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1355,2022-12-22,Standard Class,Charlie,Consumer,West,Technology,Phones,979.31,3,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1356,2022-12-23,Second Class,Alice,Consumer,East,Office Supplies,Chairs,637.8,1,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1357,2022-12-24,Same Day,Charlie,Corporate,East,Office Supplies,Phones,135.0,6,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1358,2022-12-25,First Class,David,Corporate,East,Office Supplies,Accessories,679.42,8,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1359,2022-12-26,Standard Class,Bob,Corporate,Central,Furniture,Binders,331.85,3,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1360,2022-12-27,Same Day,Frank,Home Office,South,Office Supplies,Phones,689.46,5,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1361,2022-12-28,First Class,David,Consumer,West,Office Supplies,Storage,78.94,1,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1362,2022-12-29,First Class,David,Consumer,Central,Furniture,Chairs,183.13,7,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1363,2022-12-30,Second Class,Eva,Home Office,South,Furniture,Binders,857.18,1,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1364,2022-12-31,Standard Class,Bob,Corporate,Central,Furniture,Chairs,234.91,9,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1365,2023-01-01,Standard Class,David,Home Office,West,Technology,Binders,838.67,8,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1366,2023-01-02,Second Class,David,Home Office,South,Furniture,Storage,286.48,7,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1367,2023-01-03,Second Class,Bob,Home Office,Central,Furniture,Chairs,646.45,7,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1368,2023-01-04,Standard Class,Bob,Consumer,West,Office Supplies,Tables,697.21,5,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1369,2023-01-05,Standard Class,David,Home Office,East,Furniture,Accessories,517.53,5,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1370,2023-01-06,Same Day,Bob,Consumer,West,Technology,Accessories,312.26,5,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1371,2023-01-07,Same Day,David,Consumer,East,Furniture,Binders,220.52,1,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1372,2023-01-08,Second Class,David,Consumer,Central,Technology,Tables,42.86,8,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1373,2023-01-09,Same Day,Eva,Corporate,South,Furniture,Chairs,310.91,1,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1374,2023-01-10,First Class,Alice,Consumer,South,Furniture,Tables,656.63,4,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1375,2023-01-11,Same Day,David,Consumer,Central,Furniture,Tables,938.92,9,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1376,2023-01-12,Same Day,Charlie,Corporate,South,Furniture,Chairs,872.49,9,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1377,2023-01-13,First Class,Frank,Consumer,South,Technology,Storage,768.4,5,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1378,2023-01-14,Second Class,Alice,Home Office,East,Technology,Tables,790.56,4,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1379,2023-01-15,First Class,Alice,Home Office,Central,Office Supplies,Tables,668.34,3,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1380,2023-01-16,Same Day,Alice,Consumer,West,Technology,Storage,267.68,3,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1381,2023-01-17,Second Class,Eva,Corporate,East,Furniture,Tables,908.12,5,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1382,2023-01-18,Same Day,David,Home Office,Central,Office Supplies,Tables,674.02,1,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1383,2023-01-19,First Class,Eva,Corporate,East,Office Supplies,Tables,564.84,5,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1384,2023-01-20,First Class,David,Corporate,West,Office Supplies,Accessories,119.88,6,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1385,2023-01-21,Same Day,Eva,Home Office,West,Furniture,Phones,452.58,7,0.4,<function <lambda> at 0x7efb0f47fcf0>
+CA-1386,2023-01-22,Standard Class,Eva,Corporate,Central,Technology,Storage,465.75,9,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1387,2023-01-23,Standard Class,Frank,Home Office,West,Furniture,Tables,865.92,3,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1388,2023-01-24,First Class,Charlie,Corporate,East,Office Supplies,Accessories,551.18,2,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1389,2023-01-25,First Class,Eva,Home Office,West,Furniture,Storage,386.6,3,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1390,2023-01-26,Standard Class,Frank,Consumer,East,Furniture,Binders,977.03,9,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1391,2023-01-27,Standard Class,Bob,Home Office,East,Technology,Binders,119.61,7,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1392,2023-01-28,Same Day,Charlie,Home Office,West,Technology,Tables,428.32,9,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1393,2023-01-29,Same Day,Eva,Home Office,Central,Office Supplies,Accessories,51.6,2,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1394,2023-01-30,Standard Class,Alice,Home Office,South,Furniture,Accessories,742.51,5,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1395,2023-01-31,Same Day,Bob,Corporate,West,Furniture,Storage,918.9,4,0.19,<function <lambda> at 0x7efb0f47fcf0>
+CA-1396,2023-02-01,Same Day,Bob,Consumer,East,Technology,Storage,287.24,2,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1397,2023-02-02,Second Class,Frank,Home Office,East,Furniture,Accessories,859.76,9,0.29,<function <lambda> at 0x7efb0f47fcf0>
+CA-1398,2023-02-03,Same Day,Bob,Corporate,West,Furniture,Storage,299.3,9,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1399,2023-02-04,First Class,Charlie,Consumer,Central,Furniture,Accessories,911.66,6,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1400,2023-02-05,Same Day,Eva,Consumer,Central,Technology,Phones,756.42,6,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1401,2023-02-06,Same Day,Eva,Consumer,East,Office Supplies,Accessories,806.86,8,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1402,2023-02-07,Standard Class,Alice,Consumer,East,Office Supplies,Binders,27.83,6,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1403,2023-02-08,First Class,Frank,Home Office,Central,Furniture,Storage,963.18,1,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1404,2023-02-09,Same Day,Alice,Home Office,South,Office Supplies,Accessories,729.4,4,0.23,<function <lambda> at 0x7efb0f47fcf0>
+CA-1405,2023-02-10,Same Day,Bob,Corporate,West,Technology,Accessories,311.7,7,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1406,2023-02-11,Second Class,Alice,Corporate,East,Technology,Storage,831.1,2,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1407,2023-02-12,Same Day,Charlie,Corporate,East,Office Supplies,Phones,288.71,9,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1408,2023-02-13,Same Day,Eva,Consumer,Central,Office Supplies,Phones,874.03,8,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1409,2023-02-14,Second Class,Bob,Consumer,West,Furniture,Storage,121.45,8,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1410,2023-02-15,Standard Class,Alice,Home Office,Central,Office Supplies,Chairs,706.65,7,0.32,<function <lambda> at 0x7efb0f47fcf0>
+CA-1411,2023-02-16,Same Day,Frank,Consumer,West,Furniture,Storage,545.29,4,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1412,2023-02-17,Second Class,Charlie,Consumer,West,Furniture,Storage,105.57,2,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1413,2023-02-18,First Class,Charlie,Consumer,West,Technology,Phones,249.47,3,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1414,2023-02-19,Standard Class,Alice,Corporate,East,Technology,Phones,22.28,6,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1415,2023-02-20,First Class,Eva,Corporate,South,Technology,Storage,474.08,5,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1416,2023-02-21,First Class,Alice,Home Office,Central,Technology,Storage,308.25,8,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1417,2023-02-22,Second Class,Bob,Consumer,South,Office Supplies,Storage,602.37,6,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1418,2023-02-23,Same Day,Alice,Consumer,Central,Technology,Phones,304.27,6,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1419,2023-02-24,Second Class,Charlie,Home Office,West,Office Supplies,Storage,306.92,1,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1420,2023-02-25,Second Class,Alice,Consumer,East,Technology,Storage,745.76,4,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1421,2023-02-26,Second Class,Eva,Consumer,South,Office Supplies,Tables,57.66,5,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1422,2023-02-27,Second Class,Frank,Corporate,East,Furniture,Chairs,903.87,3,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1423,2023-02-28,Standard Class,David,Home Office,Central,Office Supplies,Binders,853.74,9,0.38,<function <lambda> at 0x7efb0f47fcf0>
+CA-1424,2023-03-01,Same Day,Alice,Home Office,East,Office Supplies,Chairs,671.13,1,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1425,2023-03-02,First Class,Eva,Home Office,East,Technology,Tables,597.29,6,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1426,2023-03-03,First Class,Eva,Home Office,South,Office Supplies,Binders,893.38,6,0.13,<function <lambda> at 0x7efb0f47fcf0>
+CA-1427,2023-03-04,Same Day,Frank,Corporate,West,Furniture,Storage,193.48,5,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1428,2023-03-05,First Class,Charlie,Corporate,East,Furniture,Tables,88.18,5,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1429,2023-03-06,Same Day,Eva,Consumer,West,Technology,Storage,247.12,5,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1430,2023-03-07,First Class,Eva,Consumer,Central,Furniture,Phones,796.63,6,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1431,2023-03-08,Second Class,Eva,Consumer,East,Office Supplies,Accessories,44.32,8,0.33,<function <lambda> at 0x7efb0f47fcf0>
+CA-1432,2023-03-09,First Class,Eva,Consumer,South,Furniture,Tables,586.98,2,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1433,2023-03-10,Same Day,Bob,Corporate,Central,Technology,Phones,995.48,6,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1434,2023-03-11,Same Day,Bob,Home Office,Central,Office Supplies,Tables,857.14,1,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1435,2023-03-12,Same Day,Charlie,Corporate,South,Technology,Tables,526.23,4,0.06,<function <lambda> at 0x7efb0f47fcf0>
+CA-1436,2023-03-13,Same Day,Alice,Consumer,East,Office Supplies,Phones,73.0,3,0.14,<function <lambda> at 0x7efb0f47fcf0>
+CA-1437,2023-03-14,Same Day,Eva,Corporate,East,Furniture,Binders,833.06,9,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1438,2023-03-15,Standard Class,Frank,Home Office,Central,Technology,Chairs,602.99,3,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1439,2023-03-16,Standard Class,Alice,Home Office,East,Technology,Storage,123.78,6,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1440,2023-03-17,First Class,Frank,Corporate,West,Office Supplies,Tables,102.92,1,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1441,2023-03-18,Same Day,Alice,Corporate,South,Technology,Storage,910.53,6,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1442,2023-03-19,First Class,Charlie,Corporate,West,Office Supplies,Accessories,672.51,4,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1443,2023-03-20,Same Day,Eva,Consumer,East,Office Supplies,Phones,830.99,8,0.41,<function <lambda> at 0x7efb0f47fcf0>
+CA-1444,2023-03-21,Same Day,Eva,Corporate,Central,Office Supplies,Storage,880.19,9,0.39,<function <lambda> at 0x7efb0f47fcf0>
+CA-1445,2023-03-22,Standard Class,David,Corporate,South,Office Supplies,Phones,576.05,4,0.15,<function <lambda> at 0x7efb0f47fcf0>
+CA-1446,2023-03-23,Standard Class,Frank,Corporate,East,Furniture,Storage,522.27,6,0.46,<function <lambda> at 0x7efb0f47fcf0>
+CA-1447,2023-03-24,Second Class,Alice,Home Office,East,Office Supplies,Chairs,436.12,1,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1448,2023-03-25,Standard Class,Alice,Home Office,Central,Technology,Chairs,323.78,4,0.16,<function <lambda> at 0x7efb0f47fcf0>
+CA-1449,2023-03-26,Second Class,Bob,Consumer,Central,Furniture,Chairs,440.25,7,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1450,2023-03-27,Second Class,David,Consumer,West,Technology,Chairs,776.14,1,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1451,2023-03-28,Second Class,Bob,Home Office,South,Furniture,Chairs,605.9,8,0.47,<function <lambda> at 0x7efb0f47fcf0>
+CA-1452,2023-03-29,Second Class,Bob,Home Office,South,Office Supplies,Chairs,893.6,6,0.44,<function <lambda> at 0x7efb0f47fcf0>
+CA-1453,2023-03-30,Second Class,Bob,Home Office,Central,Furniture,Phones,448.95,5,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1454,2023-03-31,First Class,Frank,Corporate,West,Furniture,Tables,611.02,9,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1455,2023-04-01,Standard Class,Frank,Corporate,South,Technology,Storage,634.99,2,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1456,2023-04-02,Second Class,Charlie,Home Office,Central,Technology,Chairs,595.78,5,0.25,<function <lambda> at 0x7efb0f47fcf0>
+CA-1457,2023-04-03,Same Day,Charlie,Corporate,East,Office Supplies,Phones,705.61,6,0.1,<function <lambda> at 0x7efb0f47fcf0>
+CA-1458,2023-04-04,Standard Class,Bob,Corporate,South,Furniture,Phones,245.06,7,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1459,2023-04-05,Standard Class,David,Consumer,West,Furniture,Phones,517.24,5,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1460,2023-04-06,Second Class,Alice,Home Office,West,Furniture,Tables,113.18,9,0.42,<function <lambda> at 0x7efb0f47fcf0>
+CA-1461,2023-04-07,First Class,Frank,Home Office,West,Office Supplies,Storage,390.67,1,0.43,<function <lambda> at 0x7efb0f47fcf0>
+CA-1462,2023-04-08,Second Class,David,Corporate,East,Office Supplies,Tables,492.79,7,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1463,2023-04-09,First Class,Eva,Home Office,South,Office Supplies,Binders,655.7,7,0.22,<function <lambda> at 0x7efb0f47fcf0>
+CA-1464,2023-04-10,Same Day,Frank,Consumer,South,Office Supplies,Phones,951.03,4,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1465,2023-04-11,Standard Class,Frank,Consumer,East,Office Supplies,Binders,604.64,9,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1466,2023-04-12,Same Day,Charlie,Consumer,South,Technology,Accessories,746.16,5,0.34,<function <lambda> at 0x7efb0f47fcf0>
+CA-1467,2023-04-13,First Class,Alice,Home Office,East,Furniture,Chairs,511.2,4,0.09,<function <lambda> at 0x7efb0f47fcf0>
+CA-1468,2023-04-14,First Class,Alice,Home Office,East,Furniture,Chairs,637.76,7,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1469,2023-04-15,Same Day,Eva,Home Office,East,Furniture,Tables,80.22,4,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1470,2023-04-16,First Class,Eva,Home Office,West,Furniture,Storage,261.85,3,0.06,<function <lambda> at 0x7efb0f47fcf0>
+CA-1471,2023-04-17,Same Day,Frank,Home Office,South,Furniture,Binders,368.23,9,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1472,2023-04-18,Standard Class,Bob,Consumer,East,Furniture,Storage,477.77,8,0.0,<function <lambda> at 0x7efb0f47fcf0>
+CA-1473,2023-04-19,Same Day,Charlie,Corporate,South,Furniture,Tables,55.19,1,0.36,<function <lambda> at 0x7efb0f47fcf0>
+CA-1474,2023-04-20,Standard Class,Charlie,Consumer,West,Furniture,Chairs,148.62,7,0.37,<function <lambda> at 0x7efb0f47fcf0>
+CA-1475,2023-04-21,Same Day,Frank,Home Office,East,Technology,Storage,284.05,9,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1476,2023-04-22,First Class,David,Consumer,Central,Furniture,Storage,971.82,8,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1477,2023-04-23,Same Day,Bob,Home Office,West,Technology,Chairs,338.03,8,0.04,<function <lambda> at 0x7efb0f47fcf0>
+CA-1478,2023-04-24,First Class,Frank,Home Office,Central,Office Supplies,Binders,487.22,6,0.01,<function <lambda> at 0x7efb0f47fcf0>
+CA-1479,2023-04-25,Same Day,Bob,Consumer,South,Furniture,Chairs,204.14,4,0.08,<function <lambda> at 0x7efb0f47fcf0>
+CA-1480,2023-04-26,Same Day,Bob,Home Office,South,Office Supplies,Storage,614.67,8,0.45,<function <lambda> at 0x7efb0f47fcf0>
+CA-1481,2023-04-27,Second Class,Bob,Corporate,West,Office Supplies,Binders,287.88,3,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1482,2023-04-28,First Class,Frank,Home Office,South,Office Supplies,Binders,214.92,9,0.18,<function <lambda> at 0x7efb0f47fcf0>
+CA-1483,2023-04-29,Second Class,Charlie,Corporate,Central,Technology,Chairs,521.41,2,0.05,<function <lambda> at 0x7efb0f47fcf0>
+CA-1484,2023-04-30,First Class,Charlie,Corporate,East,Office Supplies,Storage,15.45,2,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1485,2023-05-01,Second Class,Bob,Home Office,East,Office Supplies,Tables,17.59,7,0.26,<function <lambda> at 0x7efb0f47fcf0>
+CA-1486,2023-05-02,Standard Class,David,Consumer,East,Office Supplies,Storage,226.88,4,0.3,<function <lambda> at 0x7efb0f47fcf0>
+CA-1487,2023-05-03,Same Day,Alice,Corporate,West,Furniture,Phones,46.35,8,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1488,2023-05-04,First Class,Frank,Consumer,South,Furniture,Accessories,116.95,9,0.03,<function <lambda> at 0x7efb0f47fcf0>
+CA-1489,2023-05-05,First Class,Alice,Corporate,Central,Technology,Tables,345.47,7,0.2,<function <lambda> at 0x7efb0f47fcf0>
+CA-1490,2023-05-06,Same Day,David,Home Office,South,Technology,Binders,804.56,5,0.12,<function <lambda> at 0x7efb0f47fcf0>
+CA-1491,2023-05-07,First Class,Frank,Home Office,South,Furniture,Tables,576.33,8,0.11,<function <lambda> at 0x7efb0f47fcf0>
+CA-1492,2023-05-08,First Class,Bob,Corporate,South,Technology,Binders,517.54,4,0.48,<function <lambda> at 0x7efb0f47fcf0>
+CA-1493,2023-05-09,Second Class,Charlie,Home Office,East,Furniture,Binders,300.55,2,0.31,<function <lambda> at 0x7efb0f47fcf0>
+CA-1494,2023-05-10,First Class,Alice,Corporate,Central,Office Supplies,Tables,932.44,6,0.28,<function <lambda> at 0x7efb0f47fcf0>
+CA-1495,2023-05-11,Standard Class,Eva,Home Office,Central,Office Supplies,Binders,403.04,9,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1496,2023-05-12,Standard Class,Eva,Consumer,South,Technology,Binders,96.22,1,0.21,<function <lambda> at 0x7efb0f47fcf0>
+CA-1497,2023-05-13,Same Day,David,Home Office,East,Furniture,Phones,620.9,7,0.27,<function <lambda> at 0x7efb0f47fcf0>
+CA-1498,2023-05-14,First Class,Bob,Consumer,East,Furniture,Storage,122.7,9,0.35,<function <lambda> at 0x7efb0f47fcf0>
+CA-1499,2023-05-15,Same Day,Alice,Home Office,Central,Technology,Storage,351.77,9,0.35,<function <lambda> at 0x7efb0f47fcf0>
